@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/mode_group"
+        android:checkableBehavior="single">
+        <item android:id="@+id/length"
+            android:title="Length" />
+        <item android:id="@+id/weight"
+            android:title="Weight" />
+        <item android:id="@+id/currency"
+            android:title="Currency"
+            android:checked="true"/>
+        <item android:id="@+id/temprature"
+            android:title="Temperature" />
+    </group>
+</menu>
